@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #faf7fb; /* very light lavender */
+            color: #3f3d56;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(135deg, #f3e8ff, #fdeaff);
+            padding: 40px 0 30px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            color: #5b4b8a;
+        }
+        header p {
+            color: #7c6fa6;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #a855f7;
+            margin: 0 18px;
+            text-decoration: none;
+            font-weight: 600;
+            padding-bottom: 4px;
+        }
+        nav a:hover {
+            border-bottom: 2px solid #a855f7;
+        }
+        section {
+            padding: 60px 10%;
+        }
+        h2 {
+            color: #a855f7;
+            margin-bottom: 20px;
+        }
+        .card {
+            background: #ffffff;
+            padding: 24px;
+            margin-bottom: 20px;
+            border-radius: 16px;
+            box-shadow: 0 10px 25px rgba(168,85,247,0.08);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 14px 30px rgba(168,85,247,0.12);
+        }
+        .projects a {
+            color: #22d3ee;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f3e8ff;
+            color: #6b5fa7;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Mahathi Indu T</h1>
+    <p>Student | CSE (AI & ML) | Aspiring AI Engineer</p>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+    <div class="card">
+        <p>
+            I am a CSE student specializing in Artificial Intelligence and Machine Learning. 
+            I enjoy solving problems and building projects
+            I am passionate about learning new technologies and applying them to real-world scenarios.
+        </p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;">
+        <div class="card">
+            <h3>Programming Languages</h3>
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+                <li>Java</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Soft Skills</h3>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Time Management</li>
+                <li>Adaptability</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;">
+        <div class="card">
+            <h3>Portfolio Website</h3>
+            <p>A personal portfolio built using HTML and CSS.</p>
+        </div>
+        <div class="card">
+            <h3>Health Connect</h3>
+            <p>HealthConnect is a digital platform that streamlines healthcare by securely connecting patients, doctors, and medical records in one place.</p>
+
+        </div>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <div class="card">
+        <h3>Bachelor of Technology (B.Tech)</h3>
+        <p>Computer Science Engineering (AI & ML)</p>
+        <p>SRM Institute of Science and Technology</p>
+        <p>2024 – 2028</p>
+    </div>
+</section>
+
+<section id="achievements">
+    <h2>Achievements</h2>
+    <div class="card">
+        <ul>
+            <li>Completed Google AI and Prompting Essentials certifications</li>
+            <li>Completed Python & Java certifications</li>
+            <li>Participated in hackathons</li>
+        </ul>
+    </div>
+</section>
+
+<section id="languages">
+    <h2>Languages</h2>
+    <div class="card">
+        <ul>
+            <li>English – Fluent</li>
+            <li>Hindi – Fluent</li>
+            <li>Telugu – Native</li>
+            <li>Spanish – Basic</li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <div class="card">
+        <p>Email: mahathit.593@gmail.com</p>
+        <p>GitHub: github.com/Mahathi593</p>
+        <p>LinkedIn: linkedin.com/in/mahathi-t</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Mahathi. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
